@@ -1,0 +1,95 @@
+body{
+        
+        background-color: #F5EFE6;
+    }
+
+.navBar{
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #f8f7f6;
+    
+   
+}
+
+.features span{
+    margin-right:20px;
+    letter-spacing: 1px;
+
+}
+
+/* brand name */
+.brand-name{
+        text-align: center;
+        padding: 30px ;
+    }
+.brand-name h1{ 
+        font-family: serif;
+        font-size: 48px;
+        font-weight: 600;
+        margin: 0;
+        letter-spacing: 2px;
+        color: #2e2a26;
+    }
+.brand-name p{
+        font-family:sans-serif;
+        font-size:18px;
+        margin-top: -8px;
+        letter-spacing: 8px;
+        color: #8c7a6b;
+        margin-bottom: 0;
+    }
+
+.features,.login{
+     flex:1;  /*takes equal space*/
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* animation=marque */
+.animation{
+margin: 0;
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+background-color: #f8eac4;
+}
+
+.scroll-text{
+        display: inline-block;
+        animation: scroll 20s linear infinite;
+        padding-right: 50px;
+    }
+.dark{
+    color: #59564d;
+    margin: 0 20px;
+}
+.gold{
+    color: #c6ab5b;
+    margin: 0 20px;
+}
+
+@keyframes scroll{
+        from{
+            transform: translateX(0%);
+        }
+        to{
+            transform: translateX(-50%);
+        }
+    }
+
+    .image{
+        justify-content: center;
+        display: flex;
+    }
+    .logo{
+        width: 1500px;
+        height: 500px;
+    }
+
