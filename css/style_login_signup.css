@@ -1,0 +1,126 @@
+body{
+    background-color:beige;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;      
+    height: 100vh;
+}
+
+.left{
+    flex:1.1;
+    background: url("../images/login_signup.png") center/cover no-repeat;
+    position:relative;
+    color:white;
+}
+.left-text {
+        position: absolute;
+        bottom: 10px;
+        left: 50px;
+    }
+.left-text h1 {
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+ .left-text span {
+        font-style: italic;
+    }
+
+.right {
+        flex: 1;
+        background: #f8f6f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.box {
+        width: 380px;
+    }
+
+    .box h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+.subtitle {
+        font-size: 14px;
+        color: #777;
+        margin-bottom: 25px;
+    }
+
+    .tabs {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .tabs button {
+        flex: 1;
+        padding: 12px;
+        border: none;
+        background: #ddd;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .tabs button.active {
+        background: #d4a62a;
+        color: white;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .form.active {
+        display: block;
+    }
+
+    label {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0 20px;
+        border: none;
+        border-bottom: 1px solid #bbb;
+        background: transparent;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .row a {
+        text-decoration: none;
+        color: #c9a441;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 14px;
+        background: #d4a62a;
+        border: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .footer a {
+        color: #c9a441;
+        text-decoration: none;
+    }

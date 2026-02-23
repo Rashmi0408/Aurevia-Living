@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Page</title>
+    <link rel="stylesheet" href="./css/style_login_signup.css">
+</head>
+<body>
+    <div class="container">
+    <div class="left">
+        <div class="left-text">
+        <h2>Redefining the art of <br><span>modern sanctuary.</span></h2>
+    </div>
+    </div>
+
+    <div class="right">
+        <div class="box">
+            <h2>Welcome back</h2>
+            <p class="subtitle">
+                Sign in to manage your luxury properties and lifestyle services.
+            </p>
+
+            <div class="tabs">
+                <button  type="button" id="loginTab" class="active" onclick="showLogin()">Login</button>
+                <button type="button" id="signupTab" onclick="showSignup()">Signup</button>
+            </div>
+
+            <!-- login -->
+            <div id="loginForm" class="form active">
+                <label>Email Address</label>
+                <input type="email" placeholder="name@gmail.com">
+
+                <div class="row">
+                    <label> Password </label>
+                    <a href="#">Forgot?</a>
+                </div>
+                <input type="password" placeholder="Enter your password">
+
+                <button class="submit-btn" onclick="loginUser()">LOGIN TO PORTAL</button>
+            </div>
+
+            <!-- Signup -->
+            <div id="signupForm" class="form">
+            <label>Full Name</label>
+            <input type="text">
+
+            <label>Email Address</label>
+            <input type="email">
+
+            <label>Password</label>
+            <input type="password">
+
+            <button class="submit-btn" onclick="signupUser()">CREATE ACCOUNT →</button>
+            </div>
+
+            <div class="footer">
+            By continuing, you agree to our <a href="#">Terms & Conditions</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="./js/Login_Signup.js"></script>
+</body>
+</html>
